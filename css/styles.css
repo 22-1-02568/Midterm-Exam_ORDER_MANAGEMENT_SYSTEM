@@ -1,0 +1,190 @@
+/* BACKGROUND COLORS */
+
+.bg-main {
+    background-color: #f1e0c5;
+}
+
+.bg-choco {
+    background-color: #342a21;
+}
+
+.bg-highlight {
+    background-color: #b25538;
+}
+
+/* TEXT COLORS */
+
+.text-main {
+    color: #f1e0c5;
+}
+
+.text-choco {
+    color: #342a21;
+}
+
+.text-highlight {
+    color: #b25538;
+}
+
+/* BUTTON COLORS */
+
+.btn-highlight {
+    background-color: #b25538;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-highlight:hover {
+    background-color: #d46a38;
+    transform: scale(1.05);
+}
+
+/* Blend S Theme Customizations */
+
+body {
+    background-image: url('https://images8.alphacoders.com/908/908785.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.blend-s-logo {
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+section.row.d-flex.text-center.container-fluid {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(241, 196, 15, 0.7);
+}
+
+.col-lg-8 {
+    padding-right: 40px;
+}
+
+.col-lg-4 {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 30px 25px;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(241, 196, 15, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.text-choco.fw-bolder, h1.text-choco.fw-bold, h5.text-choco.fw-bold {
+    color: #f1c40f;
+    text-shadow: 1px 1px 3px #000;
+    margin-bottom: 15px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 15px #f1c40f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 25px #f39c12;
+}
+
+.img-box {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #f1c40f;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.options h6 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.options input[type="number"] {
+    background-color: rgba(255, 255, 255, 0.35);
+    border: none;
+    color: #000;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 60px;
+    margin-right: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.options button.btn-highlight {
+    background-color: #f1c40f;
+    color: #000;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.options button.btn-highlight:hover {
+    background-color: #d4ac0d;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+#cart-items p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#cart-total {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f1c40f;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 20px;
+}
+
+footer.bg-choco {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f1c40f;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #000;
+    padding: 15px 0;
+    margin-top: 50px;
+}
