@@ -48,7 +48,7 @@ CREATE TABLE order_items (
 
 -- Create default Super Administrators
 -- Username: superadmin | Password: superadmin
--- Username: anon       | Password: anon
+-- Username: anon       | Password: superadmin
 INSERT INTO users (username, password_hash, role, status)
 VALUES
 ('superadmin', '$2y$10$E5EFBy23ym5Tzq61u.ZPE.UPIz5Wh6.V5qi8o.UIkBu39wJD6mQb6', 'superadmin', 'active'),
@@ -65,3 +65,4 @@ INSERT INTO products (name, price, image_path, added_by) VALUES
 ('Spanish Latte', 69.00, 'https://mywirsh.com/cdn/shop/articles/Spanish_Latte.jpg?v=1714830807', 1),
 ('Sweet Almond', 69.00, 'https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg', 1),
 ('White Mocha', 69.00, 'https://coffeecopycat.com/wp-content/uploads/2023/06/HotWhiteMocha-1200-x-1200.jpg', 1);
+
